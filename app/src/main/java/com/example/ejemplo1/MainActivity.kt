@@ -36,10 +36,9 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String) {
     Column(
         modifier =Modifier
-            .background(Color.Red),
+            .background(Color.Red)
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-
-
     ) {
         Text(
             text = "Hello $name!",
