@@ -38,8 +38,10 @@ fun Greeting(name: String) {
         modifier =Modifier
             .background(Color.Red)
             .fillMaxSize(),
+
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+
         Text(
             text = "Hello $name!",
             color = Color.Green,
